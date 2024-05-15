@@ -1,11 +1,14 @@
 import Image from "next/image";
 import React from "react";
+import HeroSection from "./components/HeroSection";
 
 const Sidebar = () => {
 
   return (
 
-      <div>Madam</div>
+      <div>
+        <HeroSection />
+      </div>
 
   )
 
