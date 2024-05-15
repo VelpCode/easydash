@@ -36,10 +36,13 @@ const HeroSection = () => {
                     </div>
                 </div>
 
-                <div className=''>
-                    <h1 className='text-4xl font-medium text-neutral-700 mt-10 mb-10'>Projects</h1>
-                    <div className=' grid grid-cols-3'>
-                        <div className='h-[300px] w-[300px] bg-neutral-300 rounded '></div>
+                <div className='max-w-[1000px]'>
+                    <h1 className='text-3xl font-medium text-neutral-700 mt-[140px] mb-10'>Projects</h1>
+                    <div className=' grid grid-cols-2 gap-y-4'>
+                        <div className='h-[400px] w-[400px] bg-neutral-200 rounded '></div>
+                        <div className='h-[400px] w-[400px] bg-neutral-300 rounded '></div>
+                        <div className='h-[400px] w-[400px] bg-neutral-300 rounded '></div>
+                        <div className='h-[400px] w-[400px] bg-neutral-300 rounded '></div>
                     </div>
                 </div>
             </div>
