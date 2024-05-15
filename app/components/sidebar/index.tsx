@@ -1,4 +1,6 @@
-import React from 'react'
+"use client"
+
+import React, { useState } from 'react'
 import Image from 'next/image'
 import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -8,6 +10,9 @@ import { Build } from '@mui/icons-material';
 import { PaintBucket } from 'lucide-react';
 import { Store } from 'lucide-react';
 import { Pen } from 'lucide-react';
+import { DarkMode } from '@mui/icons-material';
+import { LightMode } from '@mui/icons-material';
+import { dark } from '@mui/material/styles/createPalette';
 
 const Sidebar = () => {
 
@@ -39,6 +44,12 @@ const Sidebar = () => {
 
   ]
 
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode)
+  }
+ 
 
   return (
     <div className='fixed left-0 top-0 min-h-screen w-64 z-10 p-10 bg-[#F4F5F5] shadow-md'>
@@ -54,13 +65,21 @@ const Sidebar = () => {
         </div>
         </div>
       </div>
-
+      <div className='border-l p-2'>
       {Items.map((item, index) => (
         <div key={index} className='text-neutral-400 p-2 flex gap-4 mt-3 text-sm items-center cursor-pointer hover:bg-neutral-200 w-full rounded-xl'>
           {item.icon}
           {item.name}
         </div>
       ))}
+
+      <div className="mt-[570px]">
+        <button className="flex items-center gap-2 text-xs p-2 w-full text-neutral-400 hover:bg-neutral-200 rounded-lg" onClick={toggleDarkMode}>
+          {darkMode ? <LightMode /> : <DarkMode />}
+          <span>{darkMode ? 'Light' : 'Dark'}</span>
+        </button>
+      </div>
+      </div>
 
     </div>
   )
