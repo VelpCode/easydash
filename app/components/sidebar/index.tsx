@@ -59,9 +59,9 @@ const Sidebar = () => {
           <h1 className = "text-xs mt-2 text-neutral-500 font-semibold">Aman Velpula</h1>
           <p className='text-xs text-neutral-400'>aman@gmail.com</p>
           <div className = "flex gap-3 mt-2">
-            <XIcon className='text-neutral-400 text-md'/>
-            <YoutubeIcon className = 'text-neutral-400 text-md  '/> 
-            <InstagramIcon className = 'text-neutral-400 text-md'/>
+            <XIcon className='text-neutral-400 text-md cursor-pointer'/>
+            <YoutubeIcon className = 'text-neutral-400 text-md cursor-pointer'/> 
+            <InstagramIcon className = 'text-neutral-400 text-md cursor-pointer'/>
         </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const HeroSection = () => {
   return (
     <div>
@@ -26,6 +27,20 @@ const HeroSection = () => {
                     <p className='text-gray-500 mt-3 text-xl'>I'm a software developer with an eye for aesthetic interfaces, clean UI/UX practices and everything frontend.
                     When I'm not coding you can find me in the gym, or messing with some art.
                     </p>
+                    <p className='text-gray-500 mt-8 text-x italic'>I'm a software developer with an eye for aesthetic interfaces, clean UI/UX practices and everything frontend.
+                    When I'm not coding you can find me in the gym, or messing with some art.
+                    </p>
+                    <div className='flex gap-5 mt-8 mb-8'>
+                        <button className='py-3 px-3 bg-neutral-800 font-medium rounded-lg text-white shadow-lg text-sm'>Let's Talk</button>
+                        <button className='border rounded-xl py-3 px-3 text-xs shadow-sm text-neutral-700 font-medium'>Copy Email</button>
+                    </div>
+                </div>
+
+                <div className=''>
+                    <h1 className='text-4xl font-medium text-neutral-700 mt-10 mb-10'>Projects</h1>
+                    <div className=' grid grid-cols-3'>
+                        <div className='h-[300px] w-[300px] bg-neutral-300 rounded '></div>
+                    </div>
                 </div>
             </div>
         </div>
