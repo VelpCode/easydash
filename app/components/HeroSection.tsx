@@ -1,5 +1,7 @@
 import React from 'react'
-
+import { BentoGridSecondDemo } from './ui/BentoGrid'
+import { BriefcaseIcon } from 'lucide-react'
+import { Layers2 } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -37,13 +39,11 @@ const HeroSection = () => {
                 </div>
 
                 <div className='max-w-[1000px]'>
-                    <h1 className='text-3xl font-medium text-neutral-700 mt-[140px] mb-10'>Projects</h1>
-                    <div className=' grid grid-cols-2 gap-y-4'>
-                        <div className='h-[400px] w-[400px] bg-neutral-200 rounded '></div>
-                        <div className='h-[400px] w-[400px] bg-neutral-300 rounded '></div>
-                        <div className='h-[400px] w-[400px] bg-neutral-300 rounded '></div>
-                        <div className='h-[400px] w-[400px] bg-neutral-300 rounded '></div>
+                    <div className='flex items-center align-middle gap-2 mt-[140px] mb-[50px]'>
+                        <Layers2 className='text-neutral-500'/>
+                        <h1 className='text-3xl font-medium text-neutral-500'>Projects</h1>
                     </div>
+                    <BentoGridSecondDemo />
                 </div>
             </div>
         </div>
