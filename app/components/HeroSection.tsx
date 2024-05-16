@@ -2,6 +2,8 @@ import React from 'react'
 import { BentoGridSecondDemo } from './ui/BentoGrid'
 import { BriefcaseIcon } from 'lucide-react'
 import { Layers2 } from 'lucide-react';
+import { HandHeart } from 'lucide-react';
+
 
 const HeroSection = () => {
   return (
@@ -45,6 +47,11 @@ const HeroSection = () => {
                     </div>
                     <BentoGridSecondDemo />
                 </div>
+
+                <div className='mt-[140px] max-w-[1000px]'>
+                    <h1 className='text-3xl font-medium text-neutral-500'>What people say</h1>
+                </div>
+
             </div>
         </div>
 
