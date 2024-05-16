@@ -67,7 +67,7 @@ const Sidebar = () => {
       </div>
       <div className='border-l p-2'>
       {Items.map((item, index) => (
-        <div key={index} className='text-neutral-400 p-2 flex gap-4 mt-3 text-sm items-center cursor-pointer hover:bg-neutral-200 w-full rounded-xl'>
+        <div key={index} className='text-neutral-400 p-2 flex gap-4 mt-3 text-xs items-center cursor-pointer hover:bg-neutral-200 w-full rounded-xl'>
           {item.icon}
           {item.name}
         </div>

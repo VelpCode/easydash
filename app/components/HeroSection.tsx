@@ -3,6 +3,7 @@ import { BentoGridSecondDemo } from './ui/BentoGrid'
 import { BriefcaseIcon } from 'lucide-react'
 import { Layers2 } from 'lucide-react';
 import { HandHeart } from 'lucide-react';
+import { InfiniteMovingCardsDemo } from './ui/MovingCards';
 
 
 const HeroSection = () => {
@@ -19,8 +20,8 @@ const HeroSection = () => {
                 </div>
 
                 <div>
-                    <h1 className='text-8xl font-semibold mb-5 text-neutral-800'>Yo. I'm Aman 🪐</h1>
-                    <h1 className='text-5xl font-medium mb-8 text-neutral-600'>Developer. Designer. Builder</h1>
+                    <h1 className='text-7xl font-semibold mb-5 text-neutral-800'>Yo. I'm Aman 🪐</h1>
+                    <h1 className='text-4xl font-medium mb-8 text-neutral-600'>Developer. Designer. Builder</h1>
                     <div className='flex items-center gap-2 mb-8'>
                         <div className='rounded-xl max-w-2 bg-red-500 h-2 w-4'></div>
                         <div className='text-lg text-red-800'>Canada</div>
@@ -49,7 +50,11 @@ const HeroSection = () => {
                 </div>
 
                 <div className='mt-[140px] max-w-[1000px]'>
-                    <h1 className='text-3xl font-medium text-neutral-500'>What people say</h1>
+                    <div className='flex items-center align-middle gap-2 mt-[140px] mb-[50px]'>
+                        <HandHeart className='text-neutral-500' />
+                        <h1 className='text-3xl font-medium text-neutral-500'>Testimonials</h1>
+                    </div>
+                    <InfiniteMovingCardsDemo />
                 </div>
 
             </div>
