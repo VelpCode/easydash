@@ -22,25 +22,29 @@ const Sidebar = () => {
 
     {
       icon: <Home />,
-      name: "Home"
+      name: "Home",
+      link: "/home"
     },
 
     {
       icon: <Build />,
       name: "Projects",
-      link: <Link href = "/projects"></Link>
+      link: "/projects"
     },
     {
       icon: <PaintBucket />,
-      name: "Passions"
+      name: "Passions",
+      link: "/passions"
     },
     {
       icon: <Store />,
-      name: "Store"
+      name: "Store",
+      link: "/store"
     },
     {
       icon: <Pen />,
-      name: "Blog"
+      name: "Blog",
+      link: "/blog",
     }
 
 
@@ -69,10 +73,12 @@ const Sidebar = () => {
       </div>
       <div className='border-l p-2'>
       {Items.map((item, index) => (
+        <Link key = {index} href={item.link}>
         <div key={index} className='text-neutral-400 p-2 flex gap-4 mt-3 text-xs items-center cursor-pointer hover:bg-neutral-200 w-full rounded-xl'>
           {item.icon}
           {item.name}
         </div>
+        </Link>
       ))}
 
       <div className="mt-[570px]">
