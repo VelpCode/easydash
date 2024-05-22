@@ -14,3 +14,5 @@ const Passions = () => {
 
 
 }
+
+export default Passions;

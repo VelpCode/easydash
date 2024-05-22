@@ -23,7 +23,7 @@ const Sidebar = () => {
     {
       icon: <Home />,
       name: "Home",
-      link: "/home"
+      link: "/"
     },
 
     {

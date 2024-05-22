@@ -10,7 +10,7 @@ const HeroSection = () => {
   return (
     <div>
         
-        <div className='mt-10 ml-10 p-10'>
+        <div>
             <div>
                 <div className='flex mb-4 align-middle items-center gap-2 text-neutral-400 bg-green-100 p-2 rounded-3xl max-w-[100px]'>
                     <div className=' items-center flex align-middle ml-1 gap-1'>
