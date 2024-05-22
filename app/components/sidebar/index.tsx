@@ -13,6 +13,7 @@ import { Pen } from 'lucide-react';
 import { DarkMode } from '@mui/icons-material';
 import { LightMode } from '@mui/icons-material';
 import { dark } from '@mui/material/styles/createPalette';
+import Link from 'next/link';
 
 const Sidebar = () => {
 
@@ -26,7 +27,8 @@ const Sidebar = () => {
 
     {
       icon: <Build />,
-      name: "Projects"
+      name: "Projects",
+      link: <Link href = "/projects"></Link>
     },
     {
       icon: <PaintBucket />,
