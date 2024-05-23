@@ -4,7 +4,7 @@ import { BriefcaseIcon } from 'lucide-react'
 import { Layers2 } from 'lucide-react';
 import { HandHeart } from 'lucide-react';
 import { InfiniteMovingCardsDemo } from './ui/MovingCards';
-
+import Web from './webprop';
 
 const HeroSection = () => {
   return (
@@ -12,13 +12,7 @@ const HeroSection = () => {
         
         <div>
             <div>
-                <div className='flex mb-4 align-middle items-center gap-2 text-neutral-400 bg-green-100 p-2 rounded-3xl max-w-[100px]'>
-                    <div className=' items-center flex align-middle ml-1 gap-1'>
-                        <div className='rounded-xl max-w-2 bg-green-500 h-2 w-4'></div>
-                        <div className='text-green-700 text-xs'>On the web</div>
-                    </div>
-                </div>
-
+                <Web />
                 <div>
                     <h1 className='text-7xl font-semibold mb-5 text-neutral-800'>Yo. I'm Aman 🪐</h1>
                     <h1 className='text-4xl font-medium mb-8 text-neutral-600'>Developer. Designer. Builder</h1>
