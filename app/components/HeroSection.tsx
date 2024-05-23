@@ -14,8 +14,8 @@ const HeroSection = () => {
             <div>
                 <Web />
                 <div>
-                    <h1 className='text-7xl font-semibold mb-5 text-neutral-800'>Yo. I'm Aman 🪐</h1>
-                    <h1 className='text-4xl font-medium mb-8 text-neutral-600'>Developer. Designer. Builder</h1>
+                    <h1 className='text-7xl font-semibold mb-2 text-neutral-800'>Yo. I'm Aman 🪐</h1>
+                    <h1 className='text-3xl font-medium mb-8 text-gray-500'>Developer. Designer. Builder.</h1>
                     <div className='flex items-center gap-2 mb-8'>
                         <div className='rounded-xl max-w-2 bg-red-500 h-2 w-4'></div>
                         <div className='text-lg text-red-800'>Canada</div>

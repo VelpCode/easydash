@@ -8,7 +8,7 @@ const Passions = () => {
 
         <div>
             <Web />
-            <h1>Hi</h1>
+            <h1 className="text-4xl font-semibold text-neutral-800">Some of the things I like doing</h1>
         </div>
 
     )

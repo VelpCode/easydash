@@ -9,7 +9,8 @@ const Projects = () => {
 
         <div>
             <Web />
-            <div className="text-4xl font-semibold text-neutral-800 max-w-[600px]">Projects I've made to try and leave my mark on the world..</div>
+            <div className="text-6xl font-semibold text-neutral-800 max-w-[600px] mb-2">My Projects</div>
+            <h1 className='text-3xl font-medium mb-8 text-gray-500'>Some of the things I've dabbled with..</h1>
             
         </div>
 
