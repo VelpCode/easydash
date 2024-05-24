@@ -29,28 +29,28 @@ const Skeleton = () => (
 );
 const items = [
   {
-    title: "DivSplash Creative",
+    title: "Project One",
     description: "Explore the birth of groundbreaking ideas and inventions.",
     header: <Skeleton />,
     className: "md:col-span-2",
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Website Design",
+    title: "Project Two",
     description: "Dive into the transformative power of technology.",
     header: <Skeleton />,
     className: "md:col-span-1",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Art of Design",
+    title: "Project Three",
     description: "Discover the beauty of thoughtful and functional design.",
     header: <Skeleton />,
     className: "md:col-span-1",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Power of Communication",
+    title: "Project Four",
     description:
       "Understand the impact of effective communication in our lives.",
     header: <Skeleton />,
