@@ -1,3 +1,6 @@
+import { profile } from "console";
+import Image from "next/image";
+
 const INFO = {
 
 	socials: {
@@ -11,7 +14,10 @@ const INFO = {
 
 	name: {
 
-        person: "Harry G."
+        person: "Leah P.",
+        firstname: "Leah",
+        email: "leahp2@gmail.com",
+        profilepic: <Image src = "/Leah.png" alt="Leah" height={70} width={70} className="rounded shadow-sm"/>
     }
 };
 

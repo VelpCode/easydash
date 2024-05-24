@@ -14,7 +14,7 @@ import { DarkMode } from '@mui/icons-material';
 import { LightMode } from '@mui/icons-material';
 import { dark } from '@mui/material/styles/createPalette';
 import Link from 'next/link';
-
+import INFO from '@/app/userDetails/user';
 
 const Sidebar = () => {
 
@@ -61,10 +61,10 @@ const Sidebar = () => {
   return (
     <div className='fixed left-0 top-0 min-h-screen w-64 z-10 p-10 bg-[#F4F5F5] shadow-md'>
       <div className='align-middle flex gap-2 mb-10'>
-        <Image src = "/aman.jpeg" width={80} height={80} alt = 'pic' className='rounded-2xl shadow-md'></Image>
+        {INFO.name.profilepic}
         <div>
-          <h1 className = "text-xs mt-2 text-neutral-500 font-semibold">Harry G.</h1>
-          <p className='text-xs text-neutral-400 '>harryg3@gmail.com</p>
+          <h1 className = "text-xs mt-2 text-neutral-500 font-semibold">{INFO.name.person}</h1>
+          <p className='text-xs text-neutral-400 '>{INFO.name.email}</p>
           <div className = "flex gap-3 mt-2">
             <XIcon className='text-neutral-400 text-md cursor-pointer'/>
             <YoutubeIcon className = 'text-neutral-400 text-md cursor-pointer'/> 
