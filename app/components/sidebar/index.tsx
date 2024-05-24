@@ -15,6 +15,7 @@ import { LightMode } from '@mui/icons-material';
 import { dark } from '@mui/material/styles/createPalette';
 import Link from 'next/link';
 
+
 const Sidebar = () => {
 
 
@@ -62,8 +63,8 @@ const Sidebar = () => {
       <div className='align-middle flex gap-2 mb-10'>
         <Image src = "/aman.jpeg" width={80} height={80} alt = 'pic' className='rounded-2xl shadow-md'></Image>
         <div>
-          <h1 className = "text-xs mt-2 text-neutral-500 font-semibold">Aman Velpula</h1>
-          <p className='text-xs text-neutral-400'>aman@gmail.com</p>
+          <h1 className = "text-xs mt-2 text-neutral-500 font-semibold">Harry G.</h1>
+          <p className='text-xs text-neutral-400 '>harryg3@gmail.com</p>
           <div className = "flex gap-3 mt-2">
             <XIcon className='text-neutral-400 text-md cursor-pointer'/>
             <YoutubeIcon className = 'text-neutral-400 text-md cursor-pointer'/> 
