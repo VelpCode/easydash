@@ -63,8 +63,12 @@ const Blogpage = () => {
 
         <div>
             <Web />
-            <h1 className="text-6xl font-semibold text-neutral-800 mb-[100px]">Some of my scripts..</h1>
-            
+            <div className="mb-[80px]">
+            <h1 className="text-6xl font-semibold text-neutral-800">Some of my scripts..</h1>
+            <p className='text-gray-500 mt-3 text-xl'>I'm a software developer with an eye for aesthetic interfaces, clean UI/UX practices and everything frontend.
+                    When I'm not coding you can find me in the gym, or messing with some art.
+            </p>
+            </div>
             <div className='max-w-[1240px] mx-auto'>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 ss:grid-cols-1 gap-8 px-4 text-black'>
 
