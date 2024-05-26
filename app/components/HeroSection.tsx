@@ -24,10 +24,10 @@ const HeroSection = () => {
                 </div>
 
                 <div className='max-w-[1200px]'>
-                    <p className='text-gray-500 mt-3 text-xl'>I'm a software developer with an eye for aesthetic interfaces, clean UI/UX practices and everything frontend.
+                    <p className='text-gray-500 mt-3 text-lg'>I'm a software developer with an eye for aesthetic interfaces, clean UI/UX practices and everything frontend.
                     When I'm not coding you can find me in the gym, or messing with some art.
                     </p>
-                    <p className='text-gray-500 mt-8 text-x italic'>I'm a software developer with an eye for aesthetic interfaces, clean UI/UX practices and everything frontend.
+                    <p className='text-gray-500 mt-8 text-md italic'>I'm a software developer with an eye for aesthetic interfaces, clean UI/UX practices and everything frontend.
                     When I'm not coding you can find me in the gym, or messing with some art.
                     </p>
                     <div className='flex gap-5 mt-8 mb-8'>
@@ -39,7 +39,7 @@ const HeroSection = () => {
                 <div className='max-w-[1000px]'>
                     <div className='flex items-center align-middle gap-2 mt-[140px] mb-[50px]'>
                         <Layers2 className='text-neutral-500'/>
-                        <h1 className='text-3xl font-medium text-neutral-500'>Projects</h1>
+                        <h1 className='text-xl font-medium text-neutral-500'>Projects</h1>
                     </div>
                     <BentoGridSecondDemo />
                 </div>
@@ -47,7 +47,7 @@ const HeroSection = () => {
                 <div className='mt-[140px] max-w-[1000px]'>
                     <div className='flex items-center align-middle gap-2 mt-[140px] mb-[50px]'>
                         <HandHeart className='text-neutral-500' />
-                        <h1 className='text-3xl font-medium text-neutral-500'>Testimonials</h1>
+                        <h1 className='text-xl font-medium text-neutral-500'>What people say</h1>
                     </div>
                     <InfiniteMovingCardsDemo />
                 </div>
