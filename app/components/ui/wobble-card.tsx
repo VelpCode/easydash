@@ -37,7 +37,7 @@ export const WobbleCard = ({
         transition: "transform 0.1s ease-out",
       }}
       className={cn(
-        "mx-auto w-full bg-indigo-300  relative rounded-2xl overflow-hidden",
+        "mx-auto w-full bg-indigo-200  relative rounded-2xl overflow-hidden",
         containerClassName
       )}
     >
@@ -68,10 +68,10 @@ export const WobbleCard = ({
 const Noise = () => {
   return (
     <div
-      className="absolute inset-0 w-full h-full scale-[1.2] transform opacity-10 [mask-image:radial-gradient(#fff,transparent,75%)]"
+      className="absolute inset-0 w-full h-full scale-[1.2] transform opacity-5 [mask-image:radial-gradient(#fff,transparent,75%)]"
       style={{
-        backgroundImage: "url(/noise.webp)",
-        backgroundSize: "30%",
+        backgroundImage: "url(https://t4.ftcdn.net/jpg/04/55/14/61/360_F_455146184_nNSQKi7B8he6T9DpEyf7zdB8YIM2jvUh.jpg)",
+        backgroundSize: "60%",
       }}
     ></div>
   );
