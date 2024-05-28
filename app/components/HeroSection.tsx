@@ -6,6 +6,7 @@ import { HandHeart } from 'lucide-react';
 import { InfiniteMovingCardsDemo } from './ui/MovingCards';
 import Web from './webprop';
 import INFO from '../userDetails/user';
+import { WobbleCardDemo } from './ui/WobbleCardDemo';
 
 const HeroSection = () => {
   return (
@@ -39,9 +40,9 @@ const HeroSection = () => {
                 <div className='max-w-[1000px]'>
                     <div className='flex items-center align-middle gap-2 mt-[140px] mb-[50px]'>
                         <Layers2 className='text-neutral-500'/>
-                        <h1 className='text-xl font-medium text-neutral-500'>Projects</h1>
+                        <h1 className='text-xl font-medium text-neutral-500'>My Designs</h1>
                     </div>
-                    <BentoGridSecondDemo />
+                    <WobbleCardDemo />
                 </div>
 
                 <div className='mt-[140px] max-w-[1000px]'>
