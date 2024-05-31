@@ -59,6 +59,7 @@ const Sidebar = () => {
  
 
   return (
+    
     <div className='fixed left-0 top-0 min-h-screen w-64 z-10 p-10 bg-[#F4F5F5] shadow-md'>
       <div className='align-middle flex gap-2 mb-10'>
         {INFO.name.profilepic}
@@ -85,7 +86,7 @@ const Sidebar = () => {
       <div className="mt-[570px]">
         <button className="flex items-center gap-2 text-xs p-2 w-full text-neutral-400 hover:bg-neutral-200 rounded-lg" onClick={toggleDarkMode}>
           {darkMode ? <LightMode /> : <DarkMode />}
-          <span>{darkMode ? 'Light' : 'Dark'}</span>
+          <span>{darkMode ? 'Settings' : 'Settings'}</span>
         </button>
       </div>
       </div>

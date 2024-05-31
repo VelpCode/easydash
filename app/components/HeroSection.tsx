@@ -1,12 +1,15 @@
 import React from 'react'
 import { BentoGridSecondDemo } from './ui/BentoGrid'
-import { BriefcaseIcon } from 'lucide-react'
+import { BriefcaseIcon, HammerIcon } from 'lucide-react'
 import { Layers2 } from 'lucide-react';
 import { HandHeart } from 'lucide-react';
 import { InfiniteMovingCardsDemo } from './ui/MovingCards';
 import Web from './webprop';
 import INFO from '../userDetails/user';
 import Image from 'next/image';
+import { Toolbar } from '@mui/material';
+import CardSec from './CardSec';
+import CardGrid from './CardSec';
 
 const HeroSection = () => {
   return (
@@ -79,6 +82,15 @@ Donec nibh turpis.
                         </div>
                         </div>
                     </div>
+                </div>
+                
+                
+                <div className='mt-[140px] max-w-[1000px]'>
+                    <div className='flex items-center align-middle gap-2 mt-[140px] mb-[50px]'>
+                        <HammerIcon className='text-neutral-500' />
+                        <h1 className='text-xl font-medium text-neutral-700'>My Services</h1>
+                    </div>
+                    <CardGrid />
                 </div>
 
                 <div className='mt-[140px] max-w-[1000px]'>

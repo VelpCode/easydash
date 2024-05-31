@@ -20,8 +20,7 @@ export default function Page() {
                     <div className="text-3xl font-medium text-neutral-600">Project One</div>
                     <p className="mt-5 text-sm text-neutral-400 max-w-[400px] mb-10 itali">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lorem massa, lacinia eu risus ac, tempor semper nibh. Integer volutpat enim sed feugiat semper. Quisque elementum diam quis ornare suscipit. Nunc tristique nunc nec leo fermentum pharetra. Duis gravida, nisl vitae rhoncus suscipit, dui turpis viverra purus, in maximus ex ante eu tortor. Mauris semper ut elit ac aliquam. Donec sed dolor laoreet, dignissim turpis sed, posuere dolor.
-
-Donec nibh turpis, ultrices eget purus in, mollis fermentum libero. <br /> <br /> lacinia eu risus ac, tempor semper nibh. Integer volutpat enim sed feugiat
+                    Donec nibh turpis, ultrices eget purus in, mollis fermentum libero. <br /> <br /> lacinia eu risus ac, tempor semper nibh. Integer volutpat enim sed feugiat
                     </p>
                     <div className="flex gap-2">
                         <button className="px-6 py-2 bg-neutral-800 text-white rounded-lg shadow-md font-medium transform hover:-translate-y-1 transition duration-400">
@@ -45,8 +44,7 @@ Donec nibh turpis, ultrices eget purus in, mollis fermentum libero. <br /> <br /
                     <div className="text-3xl font-medium text-neutral-600">Project Two</div>
                     <p className="mt-5 text-sm text-neutral-400 max-w-[400px] mb-10 itali">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lorem massa, lacinia eu risus ac, tempor semper nibh. Integer volutpat enim sed feugiat semper. Quisque elementum diam quis ornare suscipit. Nunc tristique nunc nec leo fermentum pharetra. Duis gravida, nisl vitae rhoncus suscipit, dui turpis viverra purus, in maximus ex ante eu tortor. Mauris semper ut elit ac aliquam. Donec sed dolor laoreet, dignissim turpis sed, posuere dolor.
-
-Donec nibh turpis, ultrices eget purus in, mollis fermentum libero. <br /> <br /> lacinia eu risus ac, tempor semper nibh. Integer volutpat enim sed feugiat
+                    Donec nibh turpis, ultrices eget purus in, mollis fermentum libero. <br /> <br /> lacinia eu risus ac, tempor semper nibh. Integer volutpat enim sed feugiat
                     </p>
                     <div className="flex gap-2">
                         <button className="px-6 py-2 bg-neutral-800 text-white rounded-lg shadow-md font-medium transform hover:-translate-y-1 transition duration-400">

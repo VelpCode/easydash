@@ -11,7 +11,7 @@ const Projects = () => {
             <Web />
             <div className="text-6xl font-semibold text-neutral-800 max-w-[600px] mb-2">My Projects</div>
             <h1 className='text-3xl font-medium mb-8 text-gray-500'>Some of the things I've dabbled with..</h1>
-            <div>
+            <div className="mb-10">
                 <div className="flex gap-10 mt-[100px]">
                     <div className="left rounded-lg">
                     <Image src = "/Mockup.png" alt = "mockup" height={400} width={400} className="rounded-md shadow-xl"/>
