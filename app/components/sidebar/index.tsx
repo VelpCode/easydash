@@ -54,7 +54,7 @@ const Sidebar = () => {
 
   return (
     <div className="sm:fixed sm:left-0 sm:top-0 sm:min-h-screen sm:w-64 sm:z-10 sm:p-10 bg-[#F4F5F5] shadow-md">
-      <div className="align-middle flex gap-2 mb-10">
+      <div className="align-middle flex gap-2 mb-10 max-sm:hidden">
         {INFO.name.profilepic}
         <div>
           <h1 className="text-xs mt-2 text-neutral-500 font-semibold">
@@ -68,15 +68,15 @@ const Sidebar = () => {
           </div>
         </div>
       </div>
-      <div className="max-sm:flex max-sm:items-center border-l p-2 ">
+      <div className="max-sm:flex max-sm:items-center max-sm:justify-around border-l p-2 ">
         {Items.map((item, index) => (
           <Link key={index} href={item.link}>
             <div
               key={index}
               className="text-neutral-400 p-2 flex gap-4 sm:mt-3 text-xs items-center cursor-pointer hover:bg-neutral-200 w-full rounded-xl"
             >
-              <span className="max-sm:hidden">{item.name}</span>
               {item.icon}
+              <span className="max-sm:hidden">{item.name}</span>
             </div>
           </Link>
         ))}

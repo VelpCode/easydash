@@ -12,7 +12,7 @@ const Projects = () => {
             <div className="text-6xl font-semibold text-neutral-800 max-w-[600px] mb-2">My Projects</div>
             <h1 className='text-3xl font-medium mb-8 text-gray-500'>Some of the things I've dabbled with..</h1>
             <div className="mb-10">
-                <div className="flex gap-10 mt-[100px] md:flex-row sm:flex-col xs:flex-col ">
+                <div className="flex gap-10 mt-[100px] md:flex-row sm:flex-col max-sm:flex-col xs:flex-col ">
                     <div className="left rounded-lg">
                     <Image src = "/Mockup.png" alt = "mockup" height={400} width={400} className="rounded-md shadow-xl"/>
                     </div>
@@ -34,9 +34,9 @@ Donec nibh turpis, ultrices eget purus in, mollis fermentum libero. <br /> <br /
     
                     </div>
                 </div>
-                <div className="flex gap-10 mt-[100px] md:flex-row sm:flex-col">
+                <div className="flex gap-10 mt-[100px] md:flex-row max-sm:flex-col sm:flex-col">
 
-                    <div className="left border rounded h-[400px] w-[400px]">
+                    <div className="left rounded-lg">
                         <Image src = "/Reflex.png" alt = "reflex" height={400} width={400} className="rounded-md shadow-xl"/>
                     </div>
 
