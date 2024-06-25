@@ -1,4 +1,5 @@
 
+import { Button } from "@mui/material"
 import Web from "../components/webprop"
 import Image from "next/image"
 
@@ -21,6 +22,9 @@ export default function Page() {
                             <h1 className="text-xl font-medium">iPhone 12 Mockup Design</h1>
                             <p className="text-neutral-500 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Cras lorem massa, lacinia eu risus ac, tempor semper.</p>
+                            <button className="mt-3 py-3 px-3 bg-neutral-800 font-medium rounded-lg text-white shadow-lg text-sm">
+                Buy now
+              </button>
                         </div>
                     </div>
                 </div>
@@ -32,7 +36,11 @@ export default function Page() {
                             <h1 className="text-xl font-medium">iPhone 12 Mockup Design</h1>
                             <p className="text-neutral-500 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras lorem massa, lacinia eu risus ac, tempor semper.</p>
+                    <button className="mt-3 py-3 px-3 bg-neutral-800 font-medium rounded-lg text-white shadow-lg text-sm">
+                Buy now
+              </button>
                         </div>
+                        
                     </div>
                 </div>
                 <div className="rounded relative">
@@ -42,6 +50,9 @@ export default function Page() {
                             <h1 className="text-xl font-medium">iPhone 12 Mockup Design</h1>
                             <p className="text-neutral-500 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras lorem massa, lacinia eu risus ac, tempor semper.</p>
+                    <button className="mt-3 py-3 px-3 bg-neutral-800 font-medium rounded-lg text-white shadow-lg text-sm">
+                Buy now
+              </button>
                         </div>
                     </div>
                 </div>
@@ -52,6 +63,9 @@ export default function Page() {
                             <h1 className="text-xl font-medium">iPhone 12 Mockup Design</h1>
                             <p className="text-neutral-500 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras lorem massa, lacinia eu risus ac, tempor semper.</p>
+                    <button className="mt-3 py-3 px-3 bg-neutral-800 font-medium rounded-lg text-white shadow-lg text-sm">
+                Buy now
+              </button>
                         </div>
                     </div>
                 </div>
