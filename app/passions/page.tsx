@@ -11,6 +11,7 @@ const Passions = () => {
             <Web />
             <h1 className="text-4xl font-semibold text-neutral-800">A few other things I like..</h1>
             <div>
+                <Component></Component>
             </div>
         </div>
 
