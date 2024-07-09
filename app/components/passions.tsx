@@ -9,7 +9,7 @@ export default function Component() {
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="space-y-6 text-center">
-              <h2 className="text-3xl font-semibold tracking-tighter sm:text-4xl md:text-5xl">Passions</h2>
+              <h2 className="text-2xl font-semibold mb-10 text-neutral-600 tracking-tighter sm:text-2xl md:text-3xl">Passions</h2>
               <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-4">
                 <div className="space-y-3">
                   <div className="relative rounded-lg overflow-hidden">
@@ -122,7 +122,7 @@ export default function Component() {
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="space-y-6 text-center">
-              <h2 className="text-3xl font-semibold tracking-tighter sm:text-4xl md:text-5xl">Hobbies</h2>
+              <h2 className="text-2xl font-semibold mb-10 text-neutral-600 tracking-tighter sm:text-2xl md:text-3xl">Hobbies</h2>
               <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-4">
                 <div className="space-y-3">
                   <div className="relative rounded-lg overflow-hidden">
