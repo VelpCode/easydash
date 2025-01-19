@@ -14,9 +14,9 @@ const INFO = {
 
 	name: {
 
-        person: "Leah P.",
-        firstname: "Leah",
-        email: "leahp2@gmail.com",
+        person: "Aman V.",
+        firstname: "Aman",
+        email: "velpmail@gmail.com",
         profilepic: <Image src = "/Leah.png" alt="Leah" height={70} width={70} className="rounded shadow-sm"/>
     }
 };

@@ -79,7 +79,6 @@ const Blogpage = () => {
                     <h2 className="text-xl font-medium mt-4">{blog.title}</h2>
                     <p className="text-sm mt-2">{blog.desc}</p>
                     <div className="bg-neutral-800 shadow-md py-3 mt-5 w-full align-middle items-center flex place-content-center rounded text-sm font-medium text-white">Read Post</div>
-
                 </div>
                     
             ))}

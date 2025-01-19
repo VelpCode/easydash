@@ -16,7 +16,6 @@ const HeroSection = () => {
     <div>
       <div>
         <div>
-          <Web />
           <div>
             <h1 className="text-6xl font-semibold mb-2 text-neutral-800">
               Hey! I'm {INFO.name.firstname} 👋
